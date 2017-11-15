@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">EditText</string>
+    <string name="phone_format">Phone Format</string>
+    <string name="text_format">Text Format</string>
+    <string name="email_validation">Email Validation</string>
+    <string name="password">Password(Max 10 words)</string>
+    <string name="required_field">This field is required</string>
+    <string name="invalid_email">Invalid email</string>
+</resources>
