@@ -1,0 +1,21 @@
+<resources>
+
+    <!--You can find more about the colors from :
+        https://material.io/color/#!/?view.left=0&view.right=0&primary.color=82B1FF&secondary.color=40C4FF
+        https://material.io/guidelines/style/color.html#color-color-palette
+    -->
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppTheme.Base">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorAccent">@color/primaryColor</item>
+    </style>
+
+    <!--this will make the color of the toolbar text black-->
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light" />
+
+    <!--this will make the color of the toolbar text white-->
+   <!-- <style name="AppTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar" />-->
+
+</resources>
