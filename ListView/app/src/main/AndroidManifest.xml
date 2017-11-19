@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="np.cnblabs.listview">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ListViewXMLActivity"
+            android:label="ListView from XML"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity
+            android:name=".ListViewArrayAdapter"
+            android:label="ListView from Array Adapter"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity
+            android:name=".adapter.ListViewCustomAdapterActivity"
+            android:label="ListView from Custom Adapter"
+            android:parentActivityName=".MainActivity"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ListView</string>
+    <string name="listview_from_xml">ListView from XML</string>
+    <string name="listview_from_arrayadapter">ListView from ArrayAdapter</string>
+    <string name="listview_from_custom_adapter">ListView from custom adapter</string>
+</resources>
