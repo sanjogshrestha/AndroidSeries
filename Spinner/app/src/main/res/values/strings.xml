@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Spinner</string>
+    <string name="spinner_from_xml">Spinner from XML</string>
+    <string name="spinner_from_array_adapter">From array adapter</string>
+</resources>
