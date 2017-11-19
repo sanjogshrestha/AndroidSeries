@@ -4,10 +4,9 @@ Android ListView is a view which groups several items and display them in vertic
 
 An adapter actually bridges between UI components and the data source that fill data into UI Component. Adapter holds the data and send the data to adapter view, the view can takes the data from adapter view and shows the data on different views like as spinner, list view, grid view etc.
 
-<img src="https://github.com/sanjogshrestha/AndroidSeries/blob/master/ListView/screenshot/adapter.png" 
-width="350" height="600">
+<img src="https://github.com/sanjogshrestha/AndroidSeries/blob/master/ListView/screenshot/adapter.png">
 
-#Simple Implementation from XML
+##Simple Implementation from XML
 
 Here we create ListView in XML layout file.
 To load the entries we use android:entries attribute on list view element which points to the <string-array> defined by external resource in res/values/strings.xml.
@@ -21,7 +20,7 @@ Here, we are going to implement OnItemClickListener event listener which calls o
 <img src="https://github.com/sanjogshrestha/AndroidSeries/blob/master/ListView/screenshot/1.png" 
 width="350" height="600">
 
-#Array Adapter
+###Array Adapter
 
 The ArrayAdapter class can handle a list or arrays of Java objects as input. Every Java object is mapped to one row. By default, it maps the toString() method of the object to a view in the row layout.
 
@@ -34,7 +33,7 @@ You can also directly modify the underlying data structure and call the notifyDa
 <img src="https://github.com/sanjogshrestha/AndroidSeries/blob/master/ListView/screenshot/2.png" 
 width="350" height="600">
 
-#Custom Adapter
+####Custom Adapter
 The ArrayAdapter is limited as it supports only the mapping of toString() to one view in the row layout. To control the data assignment and to support several views, you have to create your custom adapter implementation.
 
 For this you would extend an existing adapter implementation or subclass the BaseAdapter class directly.
