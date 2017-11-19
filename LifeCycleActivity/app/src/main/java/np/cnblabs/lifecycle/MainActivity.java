@@ -9,7 +9,6 @@ import android.widget.Toast;
  *Sanjogshrestha.nepal@gmail.com
 */
 public class MainActivity extends AppCompatActivity {
-
     // Called when the activity is first created.
     @Override
     protected void onCreate(Bundle savedInstanceState){
@@ -23,13 +22,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onStart(){
         super.onStart();
         printMessage("onStart");
-    }
-
-    // Called after your activity has been stopped, prior to it being started again. Always followed by onStart()
-    @Override
-    protected void onRestart(){
-        super.onRestart();
-        printMessage("onRestart");
     }
 
     // Called when the activity has become visible.
@@ -59,9 +51,8 @@ public class MainActivity extends AppCompatActivity {
         super.onDestroy();
         printMessage("onDestroy");
     }
-
     private void printMessage(String message){
         Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
-        Log.i("MethodName", message);
+        Log.v("MethodName", message);
     }
 }
