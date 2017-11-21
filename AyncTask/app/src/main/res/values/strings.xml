@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AyncTask</string>
+    <string name="ANR">ANR</string>
+    <string name="press_go_to_start">Press GO to start.</string>
+    <string name="go">GO</string>
+    <string name="donwload_image_using_asynctask">Donwload Image using AsyncTask</string>
+    <string name="json_using_asynctask_in_listview">json using asynctask in listview</string>
+    <string name="download_image">download image</string>
+    <string name="image_downloader">Image Downloader</string>
+    <string name="parsing_json">Parsing Json Example</string>
+</resources>
