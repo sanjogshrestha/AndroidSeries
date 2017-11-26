@@ -11,3 +11,6 @@ This includes collection of tutorial listed below:
 8. Spinner
 9. Recycler View
 10.Async Task
+11. Retrofit
+12. Dagger2
+12. Realm
