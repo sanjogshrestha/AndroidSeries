@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/dimen16"
+    android:layout_marginEnd="@dimen/dimen16"
+    android:layout_weight="100">
+
+    <TextView
+        android:id="@+id/nameTV"
+        android:layout_width="0dp"
+        android:layout_weight="50"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/font20"
+        android:textStyle="bold"
+        android:padding="@dimen/dimen5"
+        android:text="@string/name"/>
+
+    <TextView
+        android:id="@+id/emailTV"
+        android:layout_width="0dp"
+        android:layout_weight="50"
+        android:layout_gravity="center"
+        android:padding="@dimen/dimen5"
+        android:layout_height="wrap_content"
+        android:text="@string/email_id"/>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Realm</string>
+    <string name="name">Name</string>
+    <string name="email_id">Email Id</string>
+    <string name="add">add</string>
+    <string name="empty_field">This field is required</string>
+    <string name="invalid_email">Invalid email address</string>
+</resources>
