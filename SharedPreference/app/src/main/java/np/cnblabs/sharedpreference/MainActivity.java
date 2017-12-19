@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        sharedpreferences = getSharedPreferences(myPreference, Context.MODE_PRIVATE);
 
         email = findViewById(R.id.etEmail);
         name = findViewById(R.id.etName);
@@ -54,8 +55,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void Get(View view) {
-        sharedpreferences = getSharedPreferences(myPreference, Context.MODE_PRIVATE);
-
         /*
         pref.getString("key_name", null); // getting String
         pref.getInt("key_name", null); // getting Integer
