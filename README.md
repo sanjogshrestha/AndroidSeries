@@ -10,7 +10,10 @@ This includes collection of tutorial listed below:
 7. List View
 8. Spinner
 9. Recycler View
-10.Async Task
+10. Async Task
 11. Retrofit
 12. Dagger2
-12. Realm
+13. Realm
+14. Tab Layout
+15. Bottom Navigation
+16. Google Maps
