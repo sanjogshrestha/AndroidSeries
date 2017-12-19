@@ -22,6 +22,7 @@ public class CustomAdapter extends ArrayAdapter<String> {
     private String[] values;
     private Context context;
     private int[] drawables;
+    private ViewHolder holder;
 
     CustomAdapter(@NonNull Context context, String[] values, int[] drawables) {
         super(context, R.layout.custom_view,values);
@@ -36,7 +37,7 @@ public class CustomAdapter extends ArrayAdapter<String> {
         LayoutInflater layoutInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         if (layoutInflater != null) {
             convertView = layoutInflater.inflate(R.layout.custom_view, parent, false);
-            ViewHolder holder = new ViewHolder();
+            holder = new ViewHolder();
             holder.textView = convertView.findViewById(R.id.title);
             holder.textView.setText(values[position]);
             Drawable image = ContextCompat.getDrawable(context, drawables[position]);
