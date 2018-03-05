@@ -10,7 +10,7 @@ This includes collection of tutorial listed below:
 7. [List View](https://github.com/sanjogshrestha/AndroidSeries/tree/master/ListView)
 8. [Spinner](https://github.com/sanjogshrestha/AndroidSeries/tree/master/Spinner)
 9. [Recycler View](https://github.com/sanjogshrestha/AndroidSeries/tree/master/RecyclerView)
-10. [Async Task](https://github.com/sanjogshrestha/AndroidSeries/tree/master/AsyncTask)
+10. [Async Task](https://github.com/sanjogshrestha/AndroidSeries/tree/master/AyncTask)
 11. [Retrofit](https://github.com/sanjogshrestha/AndroidSeries/tree/master/Retrofit)
 12. [Dagger2](https://github.com/sanjogshrestha/AndroidSeries/tree/master/Dagger2)
 13. [Realm](https://github.com/sanjogshrestha/AndroidSeries/tree/master/Realm)
